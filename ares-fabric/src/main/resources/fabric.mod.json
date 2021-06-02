@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "ares",
+  "id": "annoyancemod",
   "version": "${version}",
 
-  "name": "Ares",
-  "description": "Ares is a minecraft cheat client",
+  "name": "AnnoyanceMod",
+  "description": "WRETCHED ROBER",
   "authors": [
     "Tigermouthbear"
   ],
