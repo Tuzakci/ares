@@ -16,7 +16,7 @@ import dev.tigr.ares.fabric.impl.modules.hud.HudElement;
  */
 @Module.Info(name = "Watermark", description = "Shows an AnnoyanceMod logo on the hud overlay", category = Category.HUD, enabled = true, visible = false)
 public class Watermark extends HudElement {
-    private static final LocationIdentifier ARES_LOGO = new LocationIdentifier("textures/logo/robert.png");
+    private static final LocationIdentifier ARES_LOGO = new LocationIdentifier("textures/logo/ares_logo_white.png");
     private static final int WIDTH = 48;
 
     private final Setting<Boolean> logo = register(new BooleanSetting("Logo", true));
