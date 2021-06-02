@@ -21,7 +21,7 @@ public class ChatSuffix extends Module {
                 return;
 
             ChatMessageC2SPacket chatPacket = (ChatMessageC2SPacket) event.getPacket();
-            String msg = chatPacket.getChatMessage().concat(" \u00bb \u028c\u0433\u1d07\u0455");
+            String msg = chatPacket.getChatMessage().concat(" \u00bb \u028c\u0274\u0274\u1D0F\u028F\u028c\u0274\u1D04\u2C7B\u1D0D\u1D0F\u1D06");
             ReflectionHelper.setPrivateValue(ChatMessageC2SPacket.class, chatPacket, msg, "chatMessage", "field_12764");
         }
     });
