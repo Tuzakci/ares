@@ -75,7 +75,7 @@ public class DiscordPresence extends Module {
         PRESENCE.details = "Main Menu";
         PRESENCE.state = "discord.gg/YPbqmFK";
         PRESENCE.largeImageKey = "areslogored";
-        PRESENCE.largeImageText = "Ares " + Ares.VERSION_FULL;
+        PRESENCE.largeImageText = "AnnoyanceMod " + Ares.VERSION_FULL;
 
         DiscordRPC.discordUpdatePresence(PRESENCE);
     }
